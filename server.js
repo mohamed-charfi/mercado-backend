@@ -13,7 +13,7 @@ app.use(cors({ credentials: true, origin: [ "http://localhost:3000" ] }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.json({ message: "Mercado Marketplace API v1" })
+    res.json({ message: "Mercado Marketplace API v2" })
 });
 
 app.use('/items', itemsRouter);
